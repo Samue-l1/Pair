@@ -1,0 +1,21 @@
+    "name": "CLASSIC BOT SESSION",
+    "description": "I am Classic. A Simple Multidevice Whatsapp Bot built in NodeJs to make experience better.",
+    "logo": "https://telegra.ph/file/2ae0cad2846f8f24c0bc2.jpg",
+    "repository": "https://github.com/Samue-l1/Classic-v3-BUG",
+    "keywords": ["whatsappbot", "Classic", "Classic bot", "Classic Md", "GhostMdWhatsappBot", "GhostWaBot","GhostMD","Ghost Md Whatsapp Bot","multi device"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "Don't Fill in As it Will be of no Use",
+        "required": false 
+      }
+    }   
+
+}
